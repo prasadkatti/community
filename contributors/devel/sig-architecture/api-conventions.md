@@ -59,14 +59,14 @@ fields, but the information should not be represented only in the HTTP header.
 
 The following terms are defined:
 
-* **Kind** the name of a particular object schema (e.g. the "Cat" and "Dog"
+* **Kind** - the name of a particular object schema (e.g. the "Cat" and "Dog"
 kinds would have different attributes and properties)
-* **Resource** a representation of a system entity, sent or retrieved as JSON
+* **Resource** - a representation of a system entity, sent or retrieved as JSON
 via HTTP to the server. Resources are exposed via:
   * Collections - a list of resources of the same type, which may be queryable
   * Elements - an individual resource, addressable via a URL
-* **API Group** a set of resources that are exposed together. Along
-with the version is exposed in the "apiVersion" field as "GROUP/VERSION", e.g.
+* **API Group** - a set of resources that are exposed together. Along
+with the api group, a version is exposed in the "apiVersion" field as "GROUP/VERSION", e.g.
 "policy.k8s.io/v1".
 
 Each resource typically accepts and returns data of a single kind. A kind may be
