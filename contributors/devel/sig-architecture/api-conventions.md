@@ -206,7 +206,7 @@ This value is used in the path when retrieving an individual object.
 * uid: a unique in time and space value (typically an RFC 4122 generated
 identifier, see [the identifiers docs](https://kubernetes.io/docs/user-guide/identifiers/))
 used to distinguish between objects with the same name that have been deleted
-and recreated
+and recreated.
 
 Every object SHOULD have the following metadata in a nested object field called
 "metadata":
